@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'ExampleReactNativeFirebase' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ExampleReactNativeFirebase
+  pod 'Firebase/Core', '~> 6.3.0'
+  pod 'Firebase/Firestore', '~> 6.3.0'
+
+end
+
+target 'ExampleReactNativeFirebase-tvOS' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ExampleReactNativeFirebase-tvOS
+
+  target 'ExampleReactNativeFirebase-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
